@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Worldwide</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+
+    <nav class="navbar" id="navbar">
+        <h1 class="logo">WORLDWIDE</h1>
+        <ul class="nav-links">
+            <li class="active"><a href="#navbar"></a>Home</li>
+            <li><a href="#events"></a>News</li>
+            <li><a href="#explore"></a>Explore</li>
+            <li><a href="#tours"></a>Tours</li>
+            <li class="ctn"><a href="#footer">Contact</a></li>
+        </ul>
+        <img src="./img/menu-btn.png" alt="" class="menu-btn">
+    </nav>
+
+    <header>
+        <div class="header-content">
+            <h2>Explore The Colorful World</h2>
+            <div class="line"></div>
+            <h1>A WONDERFUL GIFT</h1>
+            <a href="#" class="ctn">Learn More</a>
+        </div>
+    </header>
+
+    <section class="events" id="events"> 
+        <div class="title">
+            <h1>Upcoming Events</h1>
+            <div class="line"></div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <img src="./img/img1.png" alt="">
+                <h4>Everest Camp Trek</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto nostrum natus enim. Dolorum, rem vel.</p>
+                <a href="#" class="ctn">Learn More</a>
+            </div>
+            <div class="col">
+                <img src="./img/img2.png" alt="">
+                <h4>Walking Holidays</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto nostrum natus enim. Dolorum, rem vel.</p>
+                <a href="#" class="ctn">Learn More</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="explore" id="explore">
+        <div class="explore-content">
+            <h1>EXPLORE THE WORLD</h1>
+            <div class="line"></div>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi illo, accusamus vitae officiis nam doloremque quas aspernatur eum voluptatum assumenda dolorum consequuntur numquam enim sunt!</p>
+            <a href="#" class="ctn">Learn More</a>
+        </div>
+    </section>
+
+    <section class="tours" id="tours">
+        <div class="row">
+            <div class="col content-col">
+                <h1>UPCOMING TOURS & DESTINATION</h1>
+                <div class="line"></div>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Delectus, inventore veniam eligendi maxime natus iusto optio accusantium laudantium in. Modi, quisquam debitis. Delectus, repellendus? Nam quod tempore atque quia tempora.</p>
+                <a href="#" class="ctn">Learn More</a>
+            </div>
+            <div class="col image-col">
+                <div class="image-gallery">
+                    <img src="./img/img3.png" alt="">
+                    <img src="./img/img4.png" alt="">
+                    <img src="./img/img5.png" alt="">
+                    <img src="./img/img6.png" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="footer" id="footer">
+        <p>225 Fourth Avenue, LA 10200, Las Vegas, USA | Phone: 700-222-544 | Email: contact@worldwide.com</p>
+        <p>Copyright © Worldwide | All Rights Reserved</p>
+    </section>
+
+
+
+    <script>
+        const menuBtn = document.querySelector('.menu-btn');
+        const navlinks = document.querySelector('.nav-links');
+
+        menuBtn.addEventListener('click', () => {
+            navlinks.classList.toggle('mobile-menu');
+        })
+    </script>
+</body>
+</html>
